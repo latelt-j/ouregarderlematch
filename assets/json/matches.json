@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Paris - Marseille",
+    "type": "Ligue 1",
+    "broadcaster": "Canal+",
+    "important": true
+  },
+  {
+    "title": "Barcelone - Real Madrid",
+    "type": "Ligue des Champions",
+    "broadcaster": "BeIN Sport",
+    "important": false
+  },
+  {
+    "title": "Manchester United - Liverpool",
+    "type": "Ligue Européenne",
+    "broadcaster": "Eurosport",
+    "important": false
+  },
+  {
+    "title": "Brésil - Allemagne",
+    "type": "Coupe du Monde",
+    "broadcaster": "Prime Video",
+    "important": false
+  },
+  {
+    "title": "Bayern Munich - Borussia Dortmund",
+    "type": "Ligue 1",
+    "broadcaster": "Canal+",
+    "important": false
+  },
+  {
+    "title": "Milan - Inter",
+    "type": "Ligue des Champions",
+    "broadcaster": "BeIN Sport",
+    "important": false
+  },
+  {
+    "title": "Chelsea - Manchester City",
+    "type": "Ligue Européenne",
+    "broadcaster": "Eurosport",
+    "important": false
+  },
+  {
+    "title": "Espagne - France",
+    "type": "Coupe du Monde",
+    "broadcaster": "Prime Video",
+    "important": false
+  },
+  {
+    "title": "Juventus - Roma",
+    "type": "Ligue 1",
+    "broadcaster": "Canal+",
+    "important": false
+  },
+  {
+    "title": "Ajax - PSV Eindhoven",
+    "type": "Ligue des Champions",
+    "broadcaster": "BeIN Sport",
+    "important": false
+  },
+  {
+    "title": "Arsenal - Tottenham",
+    "type": "Ligue Européenne",
+    "broadcaster": "Eurosport",
+    "important": false
+  },
+  {
+    "title": "Argentine - Angleterre",
+    "type": "Coupe du Monde",
+    "broadcaster": "Prime Video",
+    "important": false
+  },
+  {
+    "title": "Liverpool - Everton",
+    "type": "Ligue 1",
+    "broadcaster": "Canal+",
+    "important": true
+  },
+  {
+    "title": "Atletico Madrid - Valencia",
+    "type": "Ligue des Champions",
+    "broadcaster": "BeIN Sport",
+    "important": false
+  },
+  {
+    "title": "Portugal - Pays-Bas",
+    "type": "Ligue Européenne",
+    "broadcaster": "Eurosport",
+    "important": false
+  }
+]
