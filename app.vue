@@ -11,9 +11,42 @@ export default {
   components: { Calendar }
 }
 </script>
-<style lang="scss">
+<style lang="css">
 * {
   margin: 0;
   padding: 0;
+}
+.root {
+  background-color: #000000;
+  font-family: 'DM Sans', serif;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.mb-1 {
+  margin-bottom: 10px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.mb-3 {
+  margin-bottom: 30px;
+}
+
+.ml-1 {
+  margin-left: 10px;
+}
+
+.mr-1 {
+  margin-right: 10px;
 }
 </style>
