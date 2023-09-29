@@ -2,12 +2,13 @@
 export default defineNuxtConfig({
   dir: {
     public: 'docs' // not sure,
-
+  },
+  nitro: {
+    static: true,
   },
   app: {
     head: {
       title: 'Ou regarder le match',
-      meta: {}, // remplir plus tard
       link: [
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Lora&display=swap' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' }
