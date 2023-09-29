@@ -7,9 +7,8 @@ export default defineNuxtConfig({
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Lora&display=swap' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' }
       ]
-    },
-    buildAssetsDir: 'assets'
+    }
   },
   devtools: { enabled: true },
-  css: ['~/assets/styles/main.scss']
+  css: ['~/assets/styles/main.css']
 });
