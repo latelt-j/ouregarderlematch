@@ -11,8 +11,12 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "gh-pages": "^6.0.0",
     "nuxt": "^3.7.3",
     "sass": "^1.68.0",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "vite": "^4.4.9"
   }
 }
