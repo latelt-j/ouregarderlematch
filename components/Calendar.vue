@@ -1,6 +1,6 @@
 <template>
-  <div class="view">
-    <h1 class="mb-2">Matchs</h1>
+  <div class="calendar">
+    <h1 class="mb-2 sub-title">Matchs de foot</h1>
     <div class="mb-3">
       <CardMatch
         v-for="iMatch in importantMatches"
@@ -39,9 +39,12 @@ export default defineComponent({
 })
 </script>
 <style lang="scss" scoped>
-  .view {
+  .calendar {
+    margin-top: 48px;
     color: #FFFFFF;
     padding: 20px;
     max-height: 100%;
+    max-width: 1008px;
+    width: 100%;
   }
 </style>

@@ -1,24 +1,44 @@
 <template>
   <div class="root">
-    <Calendar />
+    <div class="layout">
+      <Header />
+      <NavSport />
+      <Calendar />
+    </div>
   </div>
 </template>
 
 <script>
+import Header from "@/components/Header.vue";
+import NavSport from "@/components/NavSport.vue";
 import Calendar from "@/components/Calendar.vue";
 export default {
   name: 'App',
-  components: { Calendar }
+  components: { Header, Calendar, NavSport }
 }
 </script>
-<style lang="css">
+<style lang="scss">
 * {
   margin: 0;
   padding: 0;
 }
 .root {
-  background-color: #000000;
+  background-color: #F5F5F5;
   font-family: 'DM Sans', serif;
+}
+
+.layout {
+  margin-left: 82px;
+  display: flex;
+  justify-content: center;
+  @media screen and (max-width: 850px) {
+    margin-left: initial;
+  }
+}
+
+.sub-title {
+  color: #363062;
+  font-weight: bold;
 }
 
 h1 {
@@ -49,4 +69,9 @@ h1 {
 .mr-1 {
   margin-right: 10px;
 }
+
+.w-100 {
+  width: 100%;
+}
+
 </style>

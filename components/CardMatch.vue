@@ -1,10 +1,12 @@
 <template>
   <div class="card mb-1" :class="{ 'important': match.important }">
-    <div class="preview-image"/>
-    <div class="ml-1">
-      <div>{{ match.type }}</div>
-      <div>{{ match.title }}</div>
-      <div>{{ match.broadcaster }}</div>
+    <div class="preview-image" />
+    <div class="card-info ml-1">
+      <div class="card-info-spec w-100">
+        <div>{{ match.type }}</div>
+        <div>{{ match.title }}</div>
+        <div>{{ match.broadcaster }}</div>
+      </div>
     </div>
   </div>
 </template>
@@ -25,7 +27,7 @@ export default defineComponent({
 </script>
 <style lang="scss">
 .card {
-  background-color: #232323;
+  background-color: #4D4C7D;
   height: 90px;
   border-radius: 15px;
   width: 100%;
@@ -37,11 +39,17 @@ export default defineComponent({
     margin-bottom: 20px;
   }
 }
+.card-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
 .preview-image {
   border-radius: 10px;
-  width: 75px;
+  width: 85px;
   height: 75px;
-  background-color: #000000;
+  background-color: #F5F5F5;
   margin-left: 10px;
 }
 </style>
