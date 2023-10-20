@@ -1,6 +1,6 @@
 <template>
   <div class="nav-sport">
-    <div class="nav-container" v-for="sport in sports">
+    <div class="nav-container" :class="{ 'is-select': index === 0 }" v-for="(sport, index) in sports">
       <div class="nav-icon">{{ sport.icon }}</div>
       <div class="cat-1">{{ sport.name }}</div>
     </div>
@@ -93,5 +93,9 @@ export default defineComponent({
   @media screen and (max-width: 850px) {
     font-size: 18px;
   }
+}
+.is-select {
+  background-color: rgba(249, 148, 23, 0.18);
+  border-bottom: 3px solid #F99417;
 }
 </style>

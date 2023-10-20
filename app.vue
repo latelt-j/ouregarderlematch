@@ -3,7 +3,8 @@
     <div class="layout">
       <Header />
       <NavSport />
-      <Calendar />
+      <Calendar class="show-calendar" />
+      <Games />
     </div>
   </div>
 </template>
@@ -11,10 +12,10 @@
 <script>
 import Header from "@/components/Header.vue";
 import NavSport from "@/components/NavSport.vue";
-import Calendar from "@/components/Calendar.vue";
+import Games from "@/components/Games.vue";
 export default {
   name: 'App',
-  components: { Header, Calendar, NavSport }
+  components: { Header, Games, NavSport }
 }
 </script>
 <style lang="scss">
@@ -73,5 +74,13 @@ h1 {
 .w-100 {
   width: 100%;
 }
-
+.show-calendar {
+  display: content;
+}
+/*
+@media screen and (max-width: 850px) {
+  .show-calendar {
+    display: none;
+  }
+}*/
 </style>
